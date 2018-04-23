@@ -9,7 +9,7 @@ html {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -55,3 +55,50 @@ nav {
 }
 
 /* Section - Start Here */
+
+#start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#Startsection {
+  background-color: lightgrey;
+}
+
+#startimage {
+  padding: 1.5rem 2rem;
+  margin-right: -18rem;
+}
+
+#startimage img {
+  width: 60%;
+  height: auto;
+}
+
+#starttext {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+  max-width: 300px;
+}
+
+#starttext h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#starttext h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+#startbutton h2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: white;
+  background-color: grey;
+}
