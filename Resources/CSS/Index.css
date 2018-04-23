@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+}
+
+#Page {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* Section - Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 4rem;
+}
+
+#logo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+}
+
+#logo img {
+  height: 2.5rem;
+  width: auto;
+}
+
+nav span {
+  padding-left: 1rem;
+}
+
+#logo span {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
