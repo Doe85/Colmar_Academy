@@ -8,9 +8,14 @@ html {
   flex-direction: column;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 /* Section - Header */
 
-header {
+#header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -48,3 +53,5 @@ nav {
   justify-content: center;
   margin-right: 1.5rem;
 }
+
+/* Section - Start Here */
