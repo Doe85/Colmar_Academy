@@ -237,3 +237,89 @@ nav {
   height: auto;
   margin-left: 1rem;
 }
+
+/* Start Learning */
+
+#learning {
+  background-color: lightgrey;
+}
+
+#learningblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#learninggrid {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.learninggridtop {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+}
+
+.learninggridbottom {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+}
+
+.learnings {
+  max-width: 33%;
+  height: auto;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.learning1text,
+.learning2text,
+.learning3text,
+.learning4text,
+.learning5text,
+.learning6text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.learnings img {
+  max-width: 100%;
+  height: auto;
+}
+
+.learnings h2 {
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.learnings h5 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.learnings p {
+  padding-bottom: 1.5rem;
+}
+
+#learning1,
+#learning2,
+#learning3,
+#learning4,
+#learning5,
+#learning6 {
+  background-color: white;
+}
