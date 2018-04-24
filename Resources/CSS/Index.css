@@ -6,6 +6,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  font-family: 'Roboto Slab', serif;
 }
 
 .container {
@@ -97,7 +98,7 @@ nav {
 #starttext h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 #startbutton h2 {
@@ -189,6 +190,10 @@ nav {
   margin-left: 1rem;
 }
 
+.story1text h2 {
+  font-size: 1.5rem;
+}
+
 /* Story 2 */
 
 #story2 {
@@ -211,6 +216,10 @@ nav {
   max-width: 65%;
   height: auto;
   margin-left: 1rem;
+}
+
+.story2text h2 {
+  font-size: 1.5rem;
 }
 
 /* Story 3 */
@@ -236,6 +245,10 @@ nav {
   max-width: 65%;
   height: auto;
   margin-left: 1rem;
+}
+
+.story3text h2 {
+  font-size: 1.5rem;
 }
 
 /* Start Learning */
@@ -303,6 +316,7 @@ nav {
 .learnings h2 {
   padding-top: 1rem;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .learnings h5 {
@@ -373,6 +387,11 @@ nav {
   height: auto;
 }
 
+.thesisstory1text h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .thesisstory2image img {
   max-width: 100%;
   height: auto;
@@ -396,6 +415,12 @@ nav {
 .thesislefttext h2 {
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.thesisstory2text h2 {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
