@@ -119,7 +119,8 @@ nav {
 #section2left {
   max-width: 60%;
   height: auto;
-  margin: 1.5rem 2rem;
+  padding: 1.5rem 2rem;
+  align-items: center;
 }
 
 #section2left img {
@@ -127,12 +128,37 @@ nav {
   height: auto;
 }
 
+#section2left h1 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#section2right h2 {
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+#section2right p {
+  padding-bottom: 0.5rem;
+}
+
+#section2left p {
+  padding-bottom: 1.5rem;
+}
+
+#section2left h5 {
+  padding-bottom: 2rem;
+}
+
 /* Right section */
-#section2section2right {
+#section2right {
   max-width: 40%;
   height: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* Story 1 */
@@ -140,10 +166,15 @@ nav {
 #story1 {
   display: flex;
   flex-direction: row;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 #story1 .story1image {
-  width: 35%;
+  max-width: 35%;
   height: auto;
 }
 
@@ -155,6 +186,7 @@ nav {
 .story1text {
   max-width: 65%;
   height: auto;
+  margin-left: 1rem;
 }
 
 /* Story 2 */
@@ -162,6 +194,7 @@ nav {
 #story2 {
   display: flex;
   flex-direction: row;
+  padding: 1rem;
 }
 
 #story2 .story2image {
@@ -177,6 +210,7 @@ nav {
 .story2text {
   max-width: 65%;
   height: auto;
+  margin-left: 1rem;
 }
 
 /* Story 3 */
@@ -184,6 +218,8 @@ nav {
 #story3 {
   display: flex;
   flex-direction: row;
+  padding: 1rem;
+  background-color: lightgrey;
 }
 
 #story3 .story3image {
@@ -194,4 +230,10 @@ nav {
 #story3 img {
   max-width: 100%;
   height: auto;
+}
+
+.story3text {
+  max-width: 65%;
+  height: auto;
+  margin-left: 1rem;
 }
