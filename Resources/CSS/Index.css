@@ -323,3 +323,100 @@ nav {
 #learning6 {
   background-color: white;
 }
+
+/* Section - Thesis */
+
+#thesiscontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesisstories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thesisleft {
+  max-width: 60%;
+  height: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.thesisright {
+  max-width: 40%;
+  height: auto;
+}
+
+.story1,
+.story2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.story1 {
+  background-color: lightgrey;
+}
+
+.thesisstory1image,
+.thesisstory2image {
+  max-width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.thesisstory1image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thesisstory2image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thesisstory1text,
+.thesisstory2text {
+  max-width: 65%;
+  height: auto;
+  margin-left: 1rem;
+}
+
+#thesisheader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.thesislefttext h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.thesislefttext p {
+  padding-bottom: 2rem;
+}
+
+.thesisstories h2 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.copywrite {
+  flex-grow: 1;
+}
