@@ -110,62 +110,88 @@ nav {
 
 /* Section - Practice & Articles */
 
-/* Practice Left */
-
-#Practicesection {
+/* Left section */
+#sectionleftandright {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
 }
 
-#practiceLeft {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 60%;
+#section2left {
+  max-width: 60%;
+  height: auto;
   margin: 1.5rem 2rem;
 }
 
-#practiceLeft h1 {
-  font-weight: bold;
-  font-size: 2rem;
-  padding-bottom: 1.5rem;
-}
-
-#practiceLeft p {
-  padding-bottom: 1.5rem;
-}
-
-#practiceLeft h5 {
-  font-weight: bold;
-  padding-bottom: 2rem;
-}
-
-#practiceLeft img {
-  width: 100%;
+#section2left img {
+  max-width: 100%;
   height: auto;
 }
 
-/* Practive Right */
-
-#practiceleft1 {
+/* Right section */
+#section2section2right {
+  max-width: 40%;
+  height: auto;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 30%;
+  flex-direction: column;
 }
 
-#practiceleft1image {
+/* Story 1 */
+
+#story1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#story1 .story1image {
+  width: 35%;
+  height: auto;
+}
+
+#story1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.story1text {
+  max-width: 65%;
+  height: auto;
+}
+
+/* Story 2 */
+
+#story2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#story2 .story2image {
   max-width: 35%;
   height: auto;
 }
 
-#practiceleft1image img {
-  width: 100%;
+#story2 img {
+  max-width: 100%;
   height: auto;
 }
 
-#practiceleft1text {
+.story2text {
   max-width: 65%;
+  height: auto;
+}
+
+/* Story 3 */
+
+#story3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#story3 .story3image {
+  max-width: 35%;
+  height: auto;
+}
+
+#story3 img {
+  max-width: 100%;
   height: auto;
 }
