@@ -580,6 +580,34 @@ nav {
   font-weight: bold;
 }
 
+#thesismobile {
+  display: none;
+}
+
+@media only screen and (max-width: 710px) {
+  #thesismobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #thesis {
+    display: none;
+  }
+
+  .thesisheader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .thesisvideo {
+    padding-bottom: 1.5rem;
+  }
+}
+
 /* Footer */
 
 footer {
