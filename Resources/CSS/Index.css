@@ -122,7 +122,7 @@ nav {
 }
 
 #startbutton {
-  box-shadow: 5px 5px 20px black;
+  border-radius: 10px;
 }
 
 #startbutton h2 {
@@ -131,6 +131,7 @@ nav {
   text-align: center;
   color: white;
   background-color: #ff7b33;
+  border-radius: 10px;
 }
 
 #startsectionmobile {
@@ -180,7 +181,7 @@ nav {
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
     color: white;
-    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
   }
 }
 
@@ -304,7 +305,7 @@ nav {
   flex-direction: row;
   padding: 1rem;
   background-color: #ff7b33;
-  box-shadow: 5px 5px 20px black;
+  border-radius: 10px;
 }
 
 #story3 .story3image {
@@ -488,7 +489,7 @@ nav {
     margin-bottom: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
   }
 
   .learningmobilemenu h2 {
@@ -532,7 +533,7 @@ nav {
 
 .story1 {
   background-color: #ff7b33;
-  box-shadow: 5px 5px 20px black;
+  border-radius: 10px;
 }
 
 .thesisstory1image,
