@@ -82,7 +82,7 @@ nav {
 }
 
 #Startsection {
-  background-color: lightgrey;
+  background-color: #ff4c40;
 }
 
 #startimage {
@@ -124,7 +124,7 @@ nav {
   padding-bottom: 0.5rem;
   text-align: center;
   color: white;
-  background-color: grey;
+  background-color: #09b24e;
 }
 
 #startsectionmobile {
@@ -139,7 +139,7 @@ nav {
   #startsectionmobile {
     display: flex;
     flex-flow: column;
-    background-color: lightgrey;
+    background-color: #ff4c40;
   }
 
   .startimagemobile img {
@@ -294,7 +294,7 @@ nav {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  background-color: lightgrey;
+  background-color: #ff948c;
 }
 
 #story3 .story3image {
@@ -361,7 +361,7 @@ nav {
 /* Start Learning */
 
 #learning {
-  background-color: lightgrey;
+  background-color: #ff4c40;
 }
 
 #learningblock {
@@ -517,7 +517,7 @@ nav {
 }
 
 .story1 {
-  background-color: lightgrey;
+  background-color: #ff948c;
 }
 
 .thesisstory1image,
@@ -621,4 +621,25 @@ footer {
 
 .copywrite {
   flex-grow: 1;
+}
+
+#footermobile {
+  display: none;
+}
+
+@media only screen and (max-width: 710px) {
+  #footermobile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  .copyrightmobile {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #footer {
+    display: none;
+  }
 }
