@@ -127,6 +127,54 @@ nav {
   background-color: grey;
 }
 
+#startsectionmobile {
+  display: none;
+}
+
+@media only screen and (max-width: 710px) {
+  #Startsection {
+    display: none;
+  }
+
+  #startsectionmobile {
+    display: flex;
+    flex-flow: column;
+    background-color: lightgrey;
+  }
+
+  .startimagemobile img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .starttextmobile h1 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .starttextmobile h2 {
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+  }
+
+  .starttextmobile,
+  .startbuttonmobile {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .startbuttonmobile {
+    text-align: center;
+    background-color: grey;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+}
+
 /* Section - Practice & Articles */
 
 /* Left section */
