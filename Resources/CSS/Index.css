@@ -41,6 +41,14 @@ html {
 
 nav span {
   padding-left: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+nav span:hover {
+  background-color: #ff7b33;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 
 #logo span {
@@ -82,7 +90,7 @@ nav {
 }
 
 #Startsection {
-  background-color: #ff4c40;
+  background-color: rgba(21, 120, 204, 0.6);
 }
 
 #startimage {
@@ -132,6 +140,7 @@ nav {
   color: white;
   background-color: #ff7b33;
   border-radius: 10px;
+  font-size: 1.5rem;
 }
 
 #startsectionmobile {
@@ -146,7 +155,7 @@ nav {
   #startsectionmobile {
     display: flex;
     flex-flow: column;
-    background-color: #ff4c40;
+    background-color: rgba(21, 120, 204, 0.6);
   }
 
   .startimagemobile img {
@@ -159,13 +168,13 @@ nav {
     padding-top: 2rem;
     font-weight: bold;
     font-size: 2rem;
-    color: white;
+    color: black;
   }
 
   .starttextmobile h2 {
     padding-bottom: 1.5rem;
     font-weight: 400;
-    color: white;
+    color: black;
   }
 
   .starttextmobile,
@@ -182,6 +191,7 @@ nav {
     margin-bottom: 2rem;
     color: white;
     border-radius: 10px;
+    font-size: 1.5rem;
   }
 }
 
@@ -372,7 +382,7 @@ nav {
 /* Start Learning */
 
 #learning {
-  background-color: #ff4c40;
+  background-color: rgba(21, 120, 204, 0.6);
 }
 
 #learningblock {
@@ -395,7 +405,7 @@ nav {
 .header h1 {
   font-weight: bold;
   font-size: 2rem;
-  color: white;
+  color: black;
 }
 
 .learninggrid {
