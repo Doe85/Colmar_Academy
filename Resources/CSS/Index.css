@@ -55,6 +55,24 @@ nav {
   margin-right: 1.5rem;
 }
 
+#headermobile {
+  display: none;
+}
+
+@media only screen and (max-width: 710px) {
+  #headermobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 4rem;
+  }
+
+  #header {
+    display: none;
+  }
+}
+
 /* Section - Start Here */
 
 #start {
