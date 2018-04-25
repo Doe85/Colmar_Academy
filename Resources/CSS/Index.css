@@ -317,6 +317,47 @@ nav {
   font-size: 1.5rem;
 }
 
+#articlesmobile {
+  display: none;
+}
+
+@media only screen and (max-width: 710px) {
+  #articlesmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  #practice {
+    display: none;
+  }
+
+  .articlemobile img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .article1mobiletext,
+  .article2mobiletext,
+  .article3mobiletext {
+    padding-left: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .articlemobile h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+  }
+
+  .articlemobile p {
+    padding-bottom: 0.5rem;
+  }
+}
+
 /* Start Learning */
 
 #learning {
