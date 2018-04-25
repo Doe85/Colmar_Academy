@@ -175,7 +175,7 @@ nav {
 }
 
 #story1 .story1image {
-  max-width: 35%;
+  width: 35%;
   height: auto;
 }
 
@@ -185,7 +185,7 @@ nav {
 }
 
 .story1text {
-  max-width: 65%;
+  width: 65%;
   height: auto;
   margin-left: 1rem;
 }
@@ -203,7 +203,7 @@ nav {
 }
 
 #story2 .story2image {
-  max-width: 35%;
+  width: 35%;
   height: auto;
 }
 
@@ -213,7 +213,7 @@ nav {
 }
 
 .story2text {
-  max-width: 65%;
+  width: 65%;
   height: auto;
   margin-left: 1rem;
 }
@@ -232,7 +232,7 @@ nav {
 }
 
 #story3 .story3image {
-  max-width: 35%;
+  width: 35%;
   height: auto;
 }
 
@@ -242,7 +242,7 @@ nav {
 }
 
 .story3text {
-  max-width: 65%;
+  width: 65%;
   height: auto;
   margin-left: 1rem;
 }
