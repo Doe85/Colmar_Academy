@@ -242,7 +242,9 @@ nav {
 }
 
 #section2left h5 {
+  font-size: 0.8rem;
   padding-bottom: 2rem;
+  font-style: italic;
 }
 
 /* Right section */
