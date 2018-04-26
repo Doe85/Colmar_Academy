@@ -4,8 +4,7 @@ html {
 
 #Page {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-flow: column wrap;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -18,16 +17,14 @@ html {
 
 #header {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   height: 4rem;
 }
 
 #logo {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-items: center;
   flex-grow: 1;
   font-size: 2rem;
@@ -43,12 +40,18 @@ nav span {
   padding-left: 1rem;
   color: black;
   text-decoration: none;
+  transition: padding 100ms linear 100ms;
 }
 
 nav span:hover {
   background-color: #ff7b33;
   border-radius: 5px;
   padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 #logo span {
@@ -70,14 +73,19 @@ nav {
 @media only screen and (max-width: 710px) {
   #headermobile {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     height: 4rem;
   }
 
   #header {
     display: none;
+  }
+
+  #headermobile img:active {
+    background-color: #ff7b33;
+    border-radius: 5px;
+    margin: 0.5rem;
   }
 }
 
@@ -112,8 +120,7 @@ nav {
 
 #starttext {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
 }
 
 #starttext h1 {
@@ -123,8 +130,7 @@ nav {
 }
 
 #starttext h2 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0 1rem 0;
   font-weight: 400;
   color: white;
 }
@@ -133,9 +139,12 @@ nav {
   border-radius: 10px;
 }
 
+#startbutton:hover {
+  scale: 1.1 1.1;
+}
+
 #startbutton h2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0 0.5rem 0;
   text-align: center;
   color: white;
   background-color: #ff7b33;
@@ -164,8 +173,7 @@ nav {
   }
 
   .starttextmobile h1 {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding: 2rem 0 2rem 0;
     font-weight: bold;
     font-size: 2rem;
     color: black;
@@ -186,8 +194,7 @@ nav {
   .startbuttonmobile {
     text-align: center;
     background-color: #ff7b33;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0 0.5rem 0;
     margin-bottom: 2rem;
     color: white;
     border-radius: 10px;
@@ -216,8 +223,7 @@ nav {
 }
 
 #section2left h1 {
-  padding-top: 2rem;
-  padding-bottom: 1.5rem;
+  padding: 2rem 0 1.5rem 0;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -253,11 +259,7 @@ nav {
 #story1 {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
-  padding-top: 1.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
 }
 
 #story1 .story1image {
@@ -364,8 +366,7 @@ nav {
   .article1mobiletext,
   .article2mobiletext,
   .article3mobiletext {
-    padding-left: 1rem;
-    padding-bottom: 4rem;
+    padding: 0 0 4rem 1rem;
   }
 
   .articlemobile h2 {
@@ -393,25 +394,26 @@ nav {
 }
 
 #learninggrid {
-  padding-left: 4.5rem;
-  padding-right: 4.5rem;
+  padding: 0 4.5rem 0 4.5rem;
 }
 
 .header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0 2rem 0;
 }
 
 .header h1 {
   font-weight: bold;
   font-size: 2rem;
   color: black;
+  background-color: #ff7b33;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: white;
 }
 
 .learninggrid {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   max-width: 1200px;
   align-content: center;
   justify-content: center;
@@ -425,14 +427,17 @@ nav {
   box-shadow: 5px 5px 20px black;
 }
 
+.learnings:hover {
+  scale: 1.1 1.1;
+}
+
 .learning1text,
 .learning2text,
 .learning3text,
 .learning4text,
 .learning5text,
 .learning6text {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .learnings img {
@@ -447,8 +452,7 @@ nav {
 }
 
 .learnings h5 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0 0.5rem 0;
   text-transform: uppercase;
 }
 
@@ -488,8 +492,7 @@ nav {
   }
 
   .learningmobileheader {
-    padding-bottom: 1rem;
-    padding-top: 2rem;
+    padding: 2rem 0 1rem 0;
     font-weight: bold;
     font-size: 2rem;
   }
@@ -502,10 +505,12 @@ nav {
     border-radius: 10px;
   }
 
+  .learningmobilemenu:active {
+    scale: 1.1 1.1;
+  }
+
   .learningmobilemenu h2 {
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
-    padding-left: 1rem;
+    padding: 1rem 0 1.5rem 1rem;
     font-size: 1.5rem;
   }
 }
@@ -525,8 +530,7 @@ nav {
 .thesisleft {
   max-width: 60%;
   height: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .thesisright {
@@ -550,9 +554,7 @@ nav {
 .thesisstory2image {
   width: 35%;
   height: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding: 1rem 0 1rem 1rem;
 }
 
 .thesisstory1image img {
@@ -581,13 +583,11 @@ nav {
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0 2rem 0;
 }
 
 .thesislefttext h2 {
-  padding-top: 1.5rem;
-  padding-bottom: 0.5rem;
+  padding: 1.5rem 0 0.5rem 0;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -625,8 +625,7 @@ nav {
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding: 2rem 0 1rem 0;
   }
 
   .thesisvideo {
@@ -638,11 +637,9 @@ nav {
 
 footer {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  padding-left: 1.5rem;
-  padding-top: 1rem;
+  padding: 0 0 1rem 1.5rem;
 }
 
 .copywrite {
@@ -661,8 +658,7 @@ footer {
   }
 
   .copyrightmobile {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0 1rem 0;
   }
 
   #footer {
